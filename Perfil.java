@@ -43,6 +43,11 @@ public class Perfil {
     public void enviarMensaje(String amigo, String mensaje) {
         System.out.println(nombre + " envía mensaje a " + amigo + ": " + mensaje);
     }
+
+    // Metodo para reaccionar a una publicacion
+    public void reaccionarPublicacion(String publicacion, String reaccion){
+        System.out.println(nombre + " ha reaccionado a " + publicacion + "con \"" + reaccion + "\"");
+    }
     
     public List<String> listaAmigos ()
     {
