@@ -33,7 +33,7 @@ public class Perfil {
     public void eliminarAmigo(String amigo) {
     	if (listaAmigos.contains(amigo)){
             listaAmigos.remove(amigo);
-            System.out.println("Amigo eliminado " + amigo);
+            System.out.println(amigo + " ha sido eliminado correctamente.");
         }else{
             System.out.println("No se puede eliminar por que no es tu amigo");
         }
