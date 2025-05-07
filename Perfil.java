@@ -41,7 +41,7 @@ public class Perfil {
     
     // Método para enviar un mensaje a un amigo
     public void enviarMensaje(String amigo, String mensaje) {
-        System.out.println(nombre + " envía mensaje a " + amigo + ": " + mensaje);
+        System.out.println(nombre + " eía mensaje a " + amigo + ": " + mensaje);
     }
     
     public List<String> listaAmigos ()
